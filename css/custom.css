@@ -1,0 +1,54 @@
+/* This stylesheet is meant for custom styles, on top of The Peel Template */
+.row
+{
+    display: flex;
+}
+.project-img
+{
+    width: 780px;
+}
+.default
+{
+    width: 105px;
+    margin-left: -10px;
+}
+.video
+{
+    width: 100%;
+}
+.mt-5
+{
+    margin-top: 50px !important;
+}
+.custom-width
+{
+    width: 380px !important;
+    margin-top: -1px !important;
+}
+/* @media screen and (max-width: 950px)
+{
+#inner {
+    padding-top: 255px;
+}} */
+@media (max-width:767px) {
+    .bg-custom
+    {
+        background-size: 85% !important;
+    }
+    .bg-custom-2
+    {
+        background-position: 80%;
+    }
+    .d-none
+    {
+        display: none;
+    }
+    footer .container span
+    {
+        font-size: 10px !important;
+    }
+    .video
+    {
+        padding: 5px;
+    }
+}
