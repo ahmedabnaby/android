@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Profile - Ahmed Abdelnaby - Android Developer</title>
+    <title>Projects - Ahmed Abdelnaby - Android Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no">
@@ -56,57 +56,81 @@
         </div>
       </header>
       <div id="inner">
-        <section class="mb-xl">
-          <div class="hero behind-header small">
-            <div style="background-image: url(images/me.png);background-repeat: no-repeat;background-size: 95%;" class="bg faded"></div>
-            <div class="vbottom">
-              <div class="container">
-                <div class="grid mb-md">
-                  <div class="col-8">
-                    <h1 class="animatedText">Profile</h1>
+        <section class="nmb behind-header">
+          <div class="hero">
+            <div style="background-image: url(images/projects/netflix.png);background-size: 65%;background-repeat: no-repeat;" class="bg faded"></div>
+              <div class="vcenter">
+                <div class="container">
+                  <div class="grid">
+                    <div class="col-1">2019</div>
+                    <div class="col-7">
+                      <div class="label">June</div><a href="netflix.html" class="project-link">
+                        <h1 class="stripe animatedText">Netflix</h1></a>
+                      <div class="label">APP DESIGN</div>
+                      <div class="label">Android Development</div>
+                    </div>
                   </div>
                 </div>
               </div>
+          </div>
+        </section>
+        <section class="mb-xl mt-6">
+          <div class="container">
+            <div class="grid content">
+              <div class="row">
+                <div class="col-6 col-offset-1">
+                      <video muted autoplay playsinline loop class="video">
+                        <source src="video/5/2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
+                </div>
+                <div class="col-6 col-offset-1">
+                  <video muted autoplay loop playsinline class="video">
+                    <source src="video/5/1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+            </div>
+              </div>
+            </div>
+            <div class="grid content">
+              <div class="col-offset-1 col-3">
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+              </div>
+              <div class="col-offset-1 col-2">
+                <div class="project-data">
+                  <div class="title">Type</div>
+                  <div class="desc">Android development,<br/> Mobile Application</div>
+                </div>
+                <div class="project-data">
+                  <div class="title">Project</div>
+                  <div class="desc">Self-based project</div>
+                </div>
+              </div>
+              <div class="col-1">
+                <div class="project-data">
+                  <div class="title">Year</div>
+                  <div class="desc">2019</div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
+        
         <section class="mb-xl">
           <div class="container">
-            <div class="grid">
-              <div class="col-3">
-                <div class="content-block">
-                  <h2>Made in the Faculty of Computer Science and Artificial Intelligence in the Cairo University.</h2>
-                  <p>Businesses often become known today through effective marketing. I think I can market to my self by saying that I am a A hard-working Android developer, always passionate about building
-                    world-class mobile applications.I am gaining and upgrading my skills so that I can stay at the cutting edge of my career as an Android developer. </p>
+            <ul class="accordion">
+              <li class="active">
+                <div class="head">
+                  <div class="title">Read more</div>
                 </div>
-              </div>
-              <div class="col-2 col-offset-1">
-                <div class="list-block">
-                  <h3 class="stripe">Responsibilities and Skills.</h3>
-                  <ul class="striped">
-                    <li>Maintain and improve <br/>mobile applications <br/> for maximum speed.</li>
-                    <li>In depth of understanding<br/> the entire mobile apps process. </li>
-                    <li>Get feedback from, and build <br/>solutions for, users and customers. <br/>Write functional requirement <br/>documents and guides. </li>
+                <div class="body"> 
+                  <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
                 </div>
-               
-              </div>
-              <div class="col-2">
-                <div class="list-block">
-                  <h3 class="stripe">About me & Used Tools.</h3>
-                  <ul class="striped">
-                    <li>3+ years of Android development experience.</li>
-                    <li>Proficiency in Android Studio 4.0 / 4.1</li>
-                    <li>Java</li>
-                    <li>Android Jetpack</li>
-                    <li>SQLite</li>
-                    <li>Kotlin</li>
-                    <li>Gradle, Retrofit and Firebase</li>
-                  
-                </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </section>
+       
       </div>
       <footer>
         <div class="container"><span>&copy; 2022 Ahmed Abdelnaby Abdellatif - Android Developer. <a href="contact.html">Talk with me!</a></span></div>
@@ -116,5 +140,6 @@
     <script src="modules/titan-slider/titan-slider.js"></script>
     <script src="modules/tera-lightbox/tera-lightbox.js"></script>
     <script src="js/functions.js"></script>
+    <script>$('#img-carousel').titanSlider({carousel : true, autoplay : true});</script>
   </body>
 </html>

@@ -531,7 +531,6 @@ nav.main-nav ul li {
     text-align: center;
     padding-bottom: 16px;
     display: none;
-
   }
   ul.nav-links a.nav-link {
     color: #000;
@@ -1190,7 +1189,7 @@ Made by Themanoid
   margin: 0;
 }
 
-/* .titanSlider.next {
+.titanSlider.next {
   cursor: url("/modules/titan-slider/slide-right.png") 5 -25, e-resize;
 }
 
@@ -1204,7 +1203,7 @@ Made by Themanoid
 
 .titanSlider.previous.dark {
   cursor: url("/modules/titan-slider/slide-left-dark.png") 5 -25, w-resize;
-} */
+}
 
 .titanSlider.fw {
   width: 100vw;
